@@ -1,0 +1,24 @@
+html {
+  background: var(--bg);
+  color: (var(--pri-text));
+  --bg: #171c28;
+  --pri-text: #f5f9ff;
+  --sec-text: #bfc6ce;
+  ::-moz-selection {
+    color: #f5f9ff;
+    background: #097AF5;
+  }
+  
+  ::selection {
+    color: #f5f9ff;
+    background: #097AF5;
+  }
+}
+
+html[data-theme="light"] {
+  background: var(--bg);
+  --bg: #f5f9ff;
+  --pri-text: #171c28;
+  --sec-text: #53607d;
+}
+
